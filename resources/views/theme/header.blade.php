@@ -101,7 +101,7 @@ License: For each use you must have a valid license purchased only from above li
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link py-3" href="../../demo1/dist/dashboards/ecommerce.html">
+                                    <a class="menu-link py-3" href="assets/auth/demo1/dist/dashboards/ecommerce.html">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>

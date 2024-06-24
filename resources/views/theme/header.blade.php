@@ -37,21 +37,21 @@ License: For each use you must have a valid license purchased only from above li
         <link href="assets/auth/css/style.bundle.css" rel="stylesheet" type="text/css" />
         <!--end::Global Stylesheets Bundle-->
         <script>var hostUrl = "assets/auth/";</script>
-            <!--begin::Global Javascript Bundle(used by all pages)-->
-            <script src="assets/auth/plugins/global/plugins.bundle.js"></script>
-            <script src="assets/auth/js/scripts.bundle.js"></script>
-            <!--end::Global Javascript Bundle-->
-            <!--begin::Page Vendors Javascript(used by this page)-->
-            <script src="assets/auth/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
-            <script src="assets/auth/plugins/custom/datatables/datatables.bundle.js"></script>
-            <!--end::Page Vendors Javascript-->
-            <!--begin::Page Custom Javascript(used by this page)-->
-            <script src="assets/auth/js/widgets.bundle.js"></script>
-            <script src="assets/auth/js/custom/widgets.js"></script>
-            <script src="assets/auth/js/custom/apps/chat/chat.js"></script>
-            <script src="assets/auth/js/custom/utilities/modals/upgrade-plan.js"></script>
-            <script src="assets/auth/js/custom/utilities/modals/create-app.js"></script>
-            <script src="assets/auth/js/custom/utilities/modals/users-search.js"></script>
+        <!--begin::Global Javascript Bundle(used by all pages)-->
+        <script src="assets/auth/plugins/global/plugins.bundle.js"></script>
+        <script src="assets/auth/js/scripts.bundle.js"></script>
+        <!--end::Global Javascript Bundle-->
+        <!--begin::Page Vendors Javascript(used by this page)-->
+        <script src="assets/auth/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+        <script src="assets/auth/plugins/custom/datatables/datatables.bundle.js"></script>
+        <!--end::Page Vendors Javascript-->
+        <!--begin::Page Custom Javascript(used by this page)-->
+        <script src="assets/auth/js/widgets.bundle.js"></script>
+        <script src="assets/auth/js/custom/widgets.js"></script>
+        <script src="assets/auth/js/custom/apps/chat/chat.js"></script>
+        <script src="assets/auth/js/custom/utilities/modals/upgrade-plan.js"></script>
+        <script src="assets/auth/js/custom/utilities/modals/create-app.js"></script>
+        <script src="assets/auth/js/custom/utilities/modals/users-search.js"></script>
     </head>
 
 <div id="kt_header" style="" class="header align-items-stretch">
@@ -3703,7 +3703,7 @@ License: For each use you must have a valid license purchased only from above li
                 <div class="d-flex align-items-center ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
                     <!--begin::Menu wrapper-->
                     <div class="cursor-pointer symbol symbol-30px symbol-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-                        <img src="assets/auth/media/avatars/300-1.jpg" alt="user" />
+                        <img src="uploads/people-icon-design.png" alt="user" />
                     </div>
                     <!--begin::User account menu-->
                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px" data-kt-menu="true">
@@ -3712,7 +3712,7 @@ License: For each use you must have a valid license purchased only from above li
                             <div class="menu-content d-flex align-items-center px-3">
                                 <!--begin::Avatar-->
                                 <div class="symbol symbol-50px me-5">
-                                    <img alt="Logo" src="assets/auth/media/avatars/300-1.jpg" />
+                                    <img alt="Logo" src="uploads/people-icon-design.png" />
                                 </div>
                                 <!--end::Avatar-->
                                 <!--begin::Username-->
@@ -3749,17 +3749,17 @@ License: For each use you must have a valid license purchased only from above li
                         
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
-                        <div class="menu-item px-5">
+                        {{-- <div class="menu-item px-5">
                             <a href="../../demo1/dist/apps/projects/list.html" class="menu-link px-5">
                                 <span class="menu-text">My Projects</span>
                                 <span class="menu-badge">
                                     <span class="badge badge-light-danger badge-circle fw-bolder fs-7">3</span>
                                 </span>
                             </a>
-                        </div>
+                        </div> --}}
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
-                        <div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
+                        {{-- <div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
                             <a href="#" class="menu-link px-5">
                                 <span class="menu-title">My Subscription</span>
                                 <span class="menu-arrow"></span>
@@ -3802,18 +3802,18 @@ License: For each use you must have a valid license purchased only from above li
                                 <!--end::Menu item-->
                             </div>
                             <!--end::Menu sub-->
-                        </div>
+                        </div> --}}
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
-                        <div class="menu-item px-5">
+                        {{-- <div class="menu-item px-5">
                             <a href="../../demo1/dist/account/statements.html" class="menu-link px-5">My Statements</a>
-                        </div>
+                        </div> --}}
                         <!--end::Menu item-->
                         <!--begin::Menu separator-->
-                        <div class="separator my-2"></div>
+                        {{-- <div class="separator my-2"></div> --}}
                         <!--end::Menu separator-->
                         <!--begin::Menu item-->
-                        <div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
+                        {{-- <div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
                             <a href="#" class="menu-link px-5">
                                 <span class="menu-title position-relative">Language
                                 <span class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">English
@@ -3863,12 +3863,12 @@ License: For each use you must have a valid license purchased only from above li
                                 <!--end::Menu item-->
                             </div>
                             <!--end::Menu sub-->
-                        </div>
+                        </div> --}}
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
-                        <div class="menu-item px-5 my-1">
+                        {{-- <div class="menu-item px-5 my-1">
                             <a href="../../demo1/dist/account/settings.html" class="menu-link px-5">Account Settings</a>
-                        </div>
+                        </div> --}}
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-5">
@@ -3880,10 +3880,10 @@ License: For each use you must have a valid license purchased only from above li
                         
                         <!--end::Menu item-->
                         <!--begin::Menu separator-->
-                        <div class="separator my-2"></div>
+                        {{-- <div class="separator my-2"></div> --}}
                         <!--end::Menu separator-->
                         <!--begin::Menu item-->
-                        <div class="menu-item px-5">
+                        {{-- <div class="menu-item px-5">
                             <div class="menu-content px-5">
                                 <label class="form-check form-switch form-check-custom form-check-solid pulse pulse-success" for="kt_user_menu_dark_mode_toggle">
                                     <input class="form-check-input w-30px h-20px" type="checkbox" value="1" name="mode" id="kt_user_menu_dark_mode_toggle" />
@@ -3891,7 +3891,7 @@ License: For each use you must have a valid license purchased only from above li
                                     <span class="form-check-label text-gray-600 fs-7" id="theme-mode-label">Dark Mode</span>
                                 </label>
                             </div>
-                        </div>             
+                        </div>              --}}
                         <!--end::Menu item-->
                     </div>
                     <!--end::User account menu-->
